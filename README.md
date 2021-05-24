@@ -23,6 +23,8 @@ npm install
 
 npm run serve 
 
+npm run build
+
 ```
 # 功能列表
 
