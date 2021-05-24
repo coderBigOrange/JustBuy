@@ -12,7 +12,7 @@
 >  本项目取名为JustBuy,希望您能体验到随心购的快感！
 ## 技术栈
 
-vue2 + vuex + vue-router + webpack + ES6/7 + axios + better-scroll + px2vw 
+vue2 + vuex + vue-router + webpack + ES6+
 
 
 ## 项目运行
@@ -44,15 +44,18 @@ npm run build
 # 页面截图展示
 ##### 首页
 <img width="205" alt="home" src="https://user-images.githubusercontent.com/59592969/119316863-0dfbcc80-bcaa-11eb-817a-7fcf43c86093.PNG">
+
 ##### 分类
 <img width="205" alt="category" src="https://user-images.githubusercontent.com/59592969/119316986-34216c80-bcaa-11eb-9c19-c86d108fc179.PNG">
+
 ##### 购物车
 <img width="203" alt="cart" src="https://user-images.githubusercontent.com/59592969/119317013-3be11100-bcaa-11eb-8f90-7071a987ddb7.PNG">
+
 ##### 我的
 <img width="203" alt="profile" src="https://user-images.githubusercontent.com/59592969/119317040-426f8880-bcaa-11eb-92b1-b2729add57c4.PNG">
+
 ##### 详情
 <img width="204" alt="detail" src="https://user-images.githubusercontent.com/59592969/119317077-4b605a00-bcaa-11eb-8334-47d2a0be58af.PNG">
-
 
 
 
