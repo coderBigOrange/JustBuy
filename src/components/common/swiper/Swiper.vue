@@ -114,12 +114,10 @@
             this.currentIndex = this.slideCount;
             this.setTransform(-this.currentIndex * this.totalWidth);
           }
-          // this.$emit('transitionEnd',this.currentIndex-1);
         },this.animDuration)
       },
       //设置transform以达到滚动效果,translate3d是一个函数,三个参数x,y,z
       setTransform: function(position) {
-        /*``和''的区别*/
         this.swiperStyle.transform = `translate3d(${position}px, 0, 0)`;
         this.swiperStyle['-webkit-transform'] = `translate3d(${position}px), 0, 0`;
         this.swiperStyle['-ms-transform'] = `translate3d(${position}px), 0, 0`;
@@ -180,24 +178,7 @@
         this.scrollContent(-this.currentIndex * this.totalWidth);
         //激活定时器
         this.startTimer();
-      },
-
-      //移动端不需要以下功能
-      // previous: function () {
-      //   this.changeItem(-1);
-      // },
-      // next: function () {
-      //   this.changeItem(1);
-      // },
-      // //指定跳转至某个幻灯片
-      // changeItem: function (num) {
-      //   this.stopTimer();
-
-      //   this.currentIndex += num;
-      //   this.scrollContent(-this.currentIndex * this.totalWidth);
-
-      //   this.startTimer()
-      // }
+      }
     }
    }
 </script>
